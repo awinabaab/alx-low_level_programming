@@ -13,6 +13,7 @@
 ## 0x01-variables_if_else_while/
    Program control flow. Concepts covered include:
    - Data Types and Variables
+   - Declareations, Expressions and Assignment
    - Arithmetic Operators (`+`, `-`, `/`, `*`, `**`, `%`)
    - Relational Operators (`<`, `>`, `<=`, `>=`, `==`, `!=`)
    - Logical Operators (`&&`, `||`, `!`)
@@ -21,3 +22,4 @@
    - `break` and `continue` statements
    - Betty coding standard
    - ASCII
+   - Precedence and Associativity of operators
