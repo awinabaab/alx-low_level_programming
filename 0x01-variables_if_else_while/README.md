@@ -39,7 +39,7 @@
    A `C` program that prints all possible different combinations of two digits.
    - numbers must be separated by `,`, followed by a space
    - the two digits must be different, `01` and `10` are considered the same combination of the two digits `0` and `1`
-   - prints the smallest combination of two digits
+   - prints only the smallest combination of two digits
    - numbers should be printed in ascending or, with two digits
    - only `putchar` is allowed five times maximum
    - not allowed to use any variable of type `char`
@@ -47,8 +47,8 @@
 ## 101-print_comb4.c
    A `C` program that prints all possible different combinations of three digits.
    - numbers must be separated by `,`, followed	by a space
-   - the two digits must be different, `012`, `120`, `102`, `021`, `201`, `210`  and `10` are considered the same combination of the two digits `0` and `1`
-   - prints the	smallest combination of	two digits
+   - the two digits must be different, `012`, `120`, `102`, `021`, `201` and `210` are considered the same combination of the two digits `0`, `1` and `2`
+   - prints only the smallest combination of two digits
    - numbers should be printed in ascending or,	with three digits
    - only `putchar` is allowed six times maximum
    - not allowed to use	any variable of	type `char`
