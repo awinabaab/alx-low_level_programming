@@ -52,3 +52,14 @@
    - numbers should be printed in ascending or,	with three digits
    - only `putchar` is allowed six times maximum
    - not allowed to use	any variable of	type `char`
+
+## 102-print_comb5.c
+   A `C` program that prints all possible combinations of two two-digit numbers.
+   - the numbers should range from `0` to `99`
+   - the two numbers should be separated by a space
+   - all the numbers should be printed in two digits. `1` should be printed as `01`
+   - the combination of numbers must be separated by a comma (`,`), followed by a space
+   - the combinations of numbers should be printed in ascending order
+   - `00 01` and `10 00` are considered as the same combination of the numbers `0` and `1`
+   - only use `putchar` function eight times maximum
+   - not allowed to use any variable of type `char`
