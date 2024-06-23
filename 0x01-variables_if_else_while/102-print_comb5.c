@@ -20,11 +20,11 @@ int main(void)
 	{
 		for (digit_two = digit_one + 1; digit_two <= 99; digit_two++)
 		{
-			putchar((digit_one / 10) + '0');
-			putchar((digit_one % 10) + '0');
+			putchar((digit_one / 10) + 48);
+			putchar((digit_one % 10) + 48);
 			putchar(' ');
-			putchar((digit_two / 10) + '0');
-			putchar((digit_two % 10) + '0');
+			putchar((digit_two / 10) + 48);
+			putchar((digit_two % 10) + 48);
 
 			if (digit_one < 98 && digit_two <= 99)
 			{
