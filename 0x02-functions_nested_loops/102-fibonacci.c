@@ -21,5 +21,7 @@ int main(void)
 		if (count < 50)
 			printf("%ld, ", fibonacci1);
 	}
-		printf("%ld\n", fibonacci1);
+	printf("%ld\n", fibonacci1);
+
+	return (0);
 }
