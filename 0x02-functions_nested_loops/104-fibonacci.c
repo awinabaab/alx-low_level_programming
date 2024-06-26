@@ -23,4 +23,6 @@ int main(void)
 			printf("%lu, ", fibonacci1);
 	}
 	printf("%lu\n", fibonacci1);
+
+	return (0);
 }
