@@ -14,7 +14,6 @@ void print_times_table(int n)
 	{
 		for (multiplicand = 0; multiplicand <= n; multiplicand++)
 		{
-			_putchar(48);
 			for (multiplier = 0; multiplier <= n; multiplier++)
 			{
 				product = multiplicand * multiplier;
