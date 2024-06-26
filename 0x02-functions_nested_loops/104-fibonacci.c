@@ -14,12 +14,12 @@ int main(void)
 	fibonacci0 = 0;
 	fibonacci1 = 1;
 
-	for (count = 2; count < 96; count++)
+	for (count = 2; count < 99; count++)
 	{
 		temp = fibonacci1;
 		fibonacci1 += fibonacci0;
 		fibonacci0 = temp;
-		if (count < 96)
+		if (count < 99)
 			printf("%lu, ", fibonacci1);
 	}
 	printf("%lu\n", fibonacci1);
