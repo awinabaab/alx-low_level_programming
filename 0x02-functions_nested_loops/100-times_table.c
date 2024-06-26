@@ -20,16 +20,16 @@ void print_times_table(int n)
 				product = multiplicand * multiplier;
 				_putchar(',');
 				_putchar(' ');
-				if (product <= 99)
+				if (product < 100)
 					_putchar(' ');
-				if (product <= 9)
+				if (product < 10)
 					_putchar(' ');
-				if (product >= 100)
+				if (product > 99)
 				{
 					_putchar((product / 100) + 48);
 					_putchar(((product / 10) % 10) + 48);
 				}
-				else if ((product <= 99) && (product >= 10))
+				else if ((product < 100) && (product > 9))
 					_putchar((product / 10) + 48);
 				_putchar((product % 10) + 48);
 			}
