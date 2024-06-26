@@ -20,7 +20,7 @@ int main(void)
 		fibonacci1 += fibonacci0;
 		fibonacci0 = temp;
 		if (count < 99)
-			printf("%lu,\n ", fibonacci1);
+			printf("%lu, ", fibonacci1);
 	}
 	printf("%lu\n", fibonacci1);
 
