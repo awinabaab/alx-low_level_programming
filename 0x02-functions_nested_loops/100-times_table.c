@@ -10,28 +10,27 @@ void print_times_table(int n)
 {
 	int product, multiplicand, multiplier;
 
-	if ((n < 16) && (n >= 0))
+	if ((n <= 15) && (n >= 0))
 	{
 		for (multiplicand = 0; multiplicand <= n; multiplicand++)
 		{
-			for (multiplier = 0; multiplier <= n; multiplier++)
+			_putchar(48);
+			for (multiplier = 1; multiplier <= n; multiplier++)
 			{
 				product = multiplicand * multiplier;
 				_putchar(',');
 				_putchar(' ');
-				if (product < 100)
+				if (product <= 99)
 					_putchar(' ');
-				if (product < 10)
+				if (product <= 9)
 					_putchar(' ');
-				if (product > 99)
+				if (product >= 100)
 				{
 					_putchar((product / 100) + 48);
 					_putchar(((product / 10) % 10) + 48);
 				}
-				else if ((product < 100) && (product > 9))
-				{
+				else if ((product <= 99) && (product >= 10))
 					_putchar((product / 10) + 48);
-				}
 				_putchar((product % 10) + 48);
 			}
 		_putchar('\n');
