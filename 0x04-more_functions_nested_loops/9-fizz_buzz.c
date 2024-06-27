@@ -16,16 +16,20 @@ int main(void)
 
 	for (numbers = 1; numbers < 101; numbers++)
 	{
-		if (((numbers % 5) == 0) && ((numbers % 3) == 0))
-			printf("FizzBuzz ");
-		else if ((numbers % 5) == 0)
-			printf("Buzz ");
-		else if ((numbers % 3) == 0)
-			printf("Fizz ");
+		if (numbers < 100)
+		{
+			if (((numbers % 5) == 0) && ((numbers % 3) == 0))
+				printf("FizzBuzz ");
+			else if ((numbers % 5) == 0)
+				printf("Buzz ");
+			else if ((numbers % 3) == 0)
+				printf("Fizz ");
+			else
+				printf("%d ", numbers);
+		}
 		else
-			printf("%d ", numbers);
+			printf("Buzz");
 	}
 	putchar('\n');
-
 	return (0);
 }
