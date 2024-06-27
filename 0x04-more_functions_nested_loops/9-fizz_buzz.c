@@ -6,13 +6,14 @@
  * but for multiples of 3 print Fizz instead of the number
  * and for multiples of 5 print Buzz instead of the number
  * for numbers which are multiples of both 3 and 5 print FizzBuzz
- * 
+ *
  * Return: (0)
  */
 
 int main(void)
 {
 	int numbers;
+
 	for (numbers = 1; numbers < 101; numbers++)
 	{
 		if (((numbers % 5) == 0) && ((numbers % 3) == 0))
