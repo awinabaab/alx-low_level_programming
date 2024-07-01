@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - updates the value it points to, to 98
- * @*n: value it points to
+ * @n: value it points to
  *
  * Return: void
  */
