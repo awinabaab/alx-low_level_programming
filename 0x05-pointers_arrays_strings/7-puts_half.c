@@ -2,7 +2,7 @@
 
 /**
  * puts_half - Prints the second half of a string followed by a new line
- * @str: Strin to be divided
+ * @str: String to be divided
  *
  * Return: void
  */
@@ -14,7 +14,12 @@ void puts_half(char *str)
 	while (str[length] != '\0')
 		length++;
 
-	for (n = (length / 2); n < length; n++)
+	n = length / 2;
+
+	if ((length % 2) > 0)
+		n++;
+
+	for (; n < length; n++)
 	{
 		_putchar(str[n]);
 	}
