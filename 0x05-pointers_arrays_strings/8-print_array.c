@@ -4,20 +4,20 @@
 /**
  * print_array - prints n elements of an array of integers
  * @a: array of integers
- * @n: number os elements to print
+ * @n: number of elements to print
  *
  * Return: void
  */
 
 void print_array(int *a, int n)
 {
-	int count;
+	int sub;
 
-	for (count = 0; (count < n) && !(n < 0); count++)
+	for (sub = 0; sub < n; sub++)
 	{
-		if (count < n - 1)
-			printf("%d, ", a[count]);
-		else
-			printf("%d\n", a[count]);
+		printf("%d", a[sub]);
+		if (sub < n - 1)
+			printf(", ");
 	}
+	_putchar('\n');
 }
