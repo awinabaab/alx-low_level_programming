@@ -9,19 +9,19 @@
 
 char *rot13(char *s)
 {
-  int sub, encoder;
+	int sub, encoder;
 
-  char *alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-  char *encoding = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char *alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char *encoding = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-  for (sub = 0; s[sub] != '\0'; sub++)
-      for (encoder = 0; alphabets[encoder] != '\0'; encoder++)
-	  if (s[sub] == alphabets[encoder])
-	  {
-	      s[sub] = encoding[encoder];
-	      break;
-	  }
+	for (sub = 0; s[sub] != '\0'; sub++)
+		for (encoder = 0; alphabets[encoder] != '\0'; encoder++)
+			if (s[sub] == alphabets[encoder])
+			{
+				s[sub] = encoding[encoder];
+				break;
+			}
 
-  s[sub] = '\0';
-  return (s);
+	s[sub] = '\0';
+	return (s);
 }
