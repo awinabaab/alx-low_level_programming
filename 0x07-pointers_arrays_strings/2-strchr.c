@@ -11,7 +11,7 @@
 
 char *_strchr(char *s, char c)
 {
-	if (!*s)
+	if (!c)
 		return (NULL);
 	for (; *s != '\0'; s++)
 		if (*s == c)
