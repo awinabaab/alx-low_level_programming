@@ -7,7 +7,6 @@
   - What are the `gcc` flags `-Wall -Werror -pedantic -Wextra -std=gnu89`.
   - What are header files and how to use them with `#include`.
   
-  
 ## 0-isupper.c
    A function that checks for uppercase character.
    - Prototype: `int _isupper(int c);`.

@@ -1,4 +1,8 @@
 # C - Recursion
+  - What is recursion
+  - How to implement recursion
+  - In what situations you should implemet recursion
+  - In what situations you shouldn't implement ecursion
 
 ## 0-puts_recursion.c
    A function that prints a string, followed by a new line
