@@ -14,20 +14,16 @@ int main(int argc, char **argv)
 {
 	int sum = 0, sub;
 	unsigned int index;
-	char *arg;
 
 	for (sub = 1; sub < argc; sub++)
 	{
-		arg = argv[sub];
 		for (index = 0; index < strlen(argv[sub]); index++)
-		{
-			if (arg[index] < 48 || arg[index] > 57)
+			if (argv[sub][index] < 48 || argv[sub][index] > 57)
 			{
 				printf("Error\n");
 				return (1);
 			}
-		}
-		sum += atoi(arg);
+		sum += atoi(argv[sub]);
 	}
 	printf("%d\n", sum);
 	return (0);
