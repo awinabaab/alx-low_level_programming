@@ -1,4 +1,4 @@
-# C - More pointers, arrays and strings
+i# C - More pointers, arrays and strings
   - What are pointers and how to use them.
   - What are arrays and how to use them.
   - What are the differences between pointers and arrays.
@@ -49,3 +49,12 @@
    - Letters `o` and `O` will be replaced by `0`.
    - Letters `t` and `T` will be replaces by `7`.
    - Letters `l` and `L` will be replaced by `1`.
+
+## 100-rot13.c
+   A function that encodes a string using `rot13`
+   - Prototype: `char *rot13(char *);`
+   - `if` is allowed once, maximum
+   - Two loops, maximum, are allowed
+   - `switch` not allowed
+   - Ternary operator not allowed
+
