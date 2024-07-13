@@ -1,8 +1,8 @@
-# C - argc, argv
+i# C - argc, argv
   - How to use arguments passed to your program
   - What are two prototypes of `main` that you know of,
   and in which case do you use one or the other
-  - How to use `__attribute__((unused))` or `(void)`
+  - How to use `\_\_attribute\_\_((unused))` or `(void)`
   to compile function with unused variables or parameters
 
 ## 0-whatsmyname.c
