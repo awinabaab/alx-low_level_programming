@@ -15,12 +15,12 @@ char *_strdup(char *str)
 	char *copy;
 	unsigned int sub;
 
-	if (str == NULL)
+	if (!str)
 		return (NULL);
 
-	copy = malloc(sizeof(char) * strlen(str));
+	copy = malloc(sizeof(char) * strlen(str) + 1);
 
-	if (copy == NULL)
+	if (!copy)
 		return (NULL);
 
 	for (sub = 0; sub < strlen(str); sub++)
