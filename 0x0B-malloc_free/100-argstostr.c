@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
 
 char *alloc_concat(int, char**);
 
@@ -58,7 +57,6 @@ char *alloc_concat(int ac, char **av)
 		len = strlen(av[sub]);
 		concat_len += len;
 	}
-	printf("%d\n", concat_len);
 
 	concat_mem = malloc((sizeof(char) * concat_len) + 1);
 	if (!concat_mem)
