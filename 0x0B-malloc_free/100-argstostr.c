@@ -55,7 +55,7 @@ char *alloc_concat(int ac, char **av)
 	for (sub = 0; sub < ac; sub++)
 	{
 		len = strlen(av[sub]);
-		concat_len += len;
+		concat_len += len + 1;
 	}
 
 	concat_mem = malloc((sizeof(char) * concat_len) + 1);
