@@ -18,6 +18,9 @@ char *create_array(unsigned int size, char c)
 	if (size <= 0)
 		return (NULL);
 
+	if (string == NULL)
+		return (NULL);
+
 	for (sub = 0; sub < size; sub++)
 		string[sub] = c;
 
