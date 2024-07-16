@@ -33,3 +33,9 @@
 ## 4-free_grid.c
    A function that fress a 2 dimensional grid previously created by `alloc_grid` function
    - Prototype: `void free_grid(**grid, int height);`
+
+## 100-argstostr.c
+   A function that concatenates all the arguments of your program
+   - Prototype: `char *argstostr(int ac, char **av);`
+   - Returns `NULL` if `ac == 0` or `av == NULL`
+   - Returns a pointer to a new string, or `NULL` if it fails
