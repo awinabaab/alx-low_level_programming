@@ -13,7 +13,6 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *array;
-	unsigned int sub;
 
 	if (!nmemb || !size)
 		return (NULL);
