@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 {
 	int op_bytes = atoi(argv[1]);
 	int sub;
-	char *op_code = (unsigned char *)main;
+	char *op_code = (char *)main;
 
 	if (argc != 2)
 	{
