@@ -1,18 +1,17 @@
 ;Prints "Hello, Holberton" followed by a new line
 
+extern printf
 global main
 
-section .data
-	message: DB "Hello, Holberton", 0xa
-	length: EQU $-message
-
 main:
-	mov rax, 1			;sys_write (
-	mov rdi, 1			;	1,
-	mov rsi, message	;	message,
-	mov rdx, length		;	length
-	syscall				;);
+	mov rsi, message
+	mov rdi, format_specifier
+	mov rax, 0x0
+	call printf
 
-	mov rax, 60			;sys_exit (
-	mov rdi, 69			;	success
-	syscall				;);
+	mov eax, 0x0	; exit
+	ret				; return
+
+section .data
+	message: DB "Hello, Holberton", 0x0
+	format_specifier: DB "%s", 0xa, 0x0
