@@ -31,4 +31,7 @@ list_t *add_node(list_t **head, const char *str);
 /* Adds a new node at the end of a list_t list */
 list_t *add_node_end(list_t **head, const char *str);
 
+/* Fress a list_t list */
+void free_list(list_t *head);
+
 #endif /* ifndef LISTS_H */
