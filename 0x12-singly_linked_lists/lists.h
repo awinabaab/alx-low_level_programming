@@ -34,4 +34,7 @@ list_t *add_node_end(list_t **head, const char *str);
 /* Fress a list_t list */
 void free_list(list_t *head);
 
+/* Prints a string before the main function is executed */
+void first(void) __attribute__((constructor));
+
 #endif /* ifndef LISTS_H */
