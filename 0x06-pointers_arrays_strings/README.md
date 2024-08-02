@@ -5,7 +5,7 @@
   - How to use strings and how to manipulate them.
   - Scope variables.
 
-## 0-strcat.c
+## [0-strcat.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/0-strcat.c)
    A function that concatenates two strings.
    - Prototype: `char *_strcat(char *dest, char *src);`.
    - The function appends the `src` string to the `dest` string,
@@ -14,7 +14,7 @@
    - Returns a pointer to `dest`.
    - Similar to the C STL `strcat` function.
 
-## 1-strncat.c
+## [1-strncat.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/1-strncat.c)
    A function that concatenates two strings.
    - Prototype: `char *_strncat(cat *dest, char *src, int n);`.
    - The function appends at most `n` bytes of the `src` string to the `dest string.
@@ -22,26 +22,26 @@
    - Returns a pointer to the resulting string `dest`.
    - Similar to the C STL `strncat` function.
 
-## 2-strncpy.c
+## [2-strncpy.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/2-strncpy.c)
    A function that copies a string.
    - Prototype: `char *_strncpy (char *dest, char *src, int n);`.
    - Similar to the C STL `strncpy` function.
 
-## 3-strcmp.c
+## [3-strcmp.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/3-strcmp.c)
    A function that compares two strings.
    - Prototype: int *_strcmp(char *s1, char *s2);`.
    - Similar to C STL `strcmp`.
 
-## 4-rev_array.c
+## [4-rev_array.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/4-rev_array.c)
    A function that reverses the content of an array of integers.
    - Prototype: `void revers_array(int *a, int n);`.
    - Where `n` is the number of elements of the array.
 
-## 5-string_toupper.c
+## [5-string_toupper.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/5-string_toupper.c)
    A fucntion that changes all lowercase letters of a string to uppercase.
    - Prototype: `char *string_toupper(char *);`.
 
-## 7-leet.c
+## [7-leet.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/7-leet.c)
    A function that encodes  a string into `1337`.
    - Prototype: `char *leet(char *);`.
    - Letters `a` and `A` will be replaced by `4`.
@@ -50,11 +50,10 @@
    - Letters `t` and `T` will be replaces by `7`.
    - Letters `l` and `L` will be replaced by `1`.
 
-## 100-rot13.c
+## [100-rot13.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/100-rot13.c)
    A function that encodes a string using `rot13`
    - Prototype: `char *rot13(char *);`
    - `if` is allowed once, maximum
    - Two loops, maximum, are allowed
    - `switch` not allowed
    - Ternary operator not allowed
-

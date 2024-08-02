@@ -15,52 +15,52 @@
   - What is the `ASCII` character set
   - What is the purpose of the `gcc` flags `-m32` and `-m64`
 
-## 0-positive_or_negative.c
+## [0-positive_or_negative.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)
    A `C` program that determines whether a randomly generated number is positive
    or negative, followed by a new line.
 
-## 1-last_digit.c
+## [1-last_digit.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/1-last_digit.c)
    A `C` program that prints the last digit of a randomly generated number,
    followed by a new line.
 
-## 2-print_alphabet.c
+## [2-print_alphabet.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c)
    A `C` program that prints the alphabets in lowercase using `putchar`
    a maximum of two times, followed by a new line.
 
-## 3-print_alphabets.c
+## [3-print_alphabets.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c)
    A `C` program that prints the alphabet in lowercase, and then in upercase,
    using `putchar` a maximum of three times, followed by a new line.
 
-## 4-print_alphabet.c
+## [4-print_alphabt.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c)
    A `C` program that prints the alphabets in lowercase, except `q` and `e`,
    using `putchar`, followed by a new line.
 
-## 5-print_numbers.c
+## [5-print_numbers.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c)
    A `C` program that prints all single digit numbers of base `10` from `0`,
    followed by a new line.
 
-## 6-print_numberz.c
+## [6-print_numberz.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/6-print_numberz.c)
    A `C` program that prints all single digit numbers of base `10`
    starting from `0`, using only `putchar` a maximum of two times,
    followed by a new line.
    - not allowed to use any variable of type `char`
 
-## 7-print_tebahpla.c
+## [7-print_tebahpla.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c)
    A `C` program that prints the lowercase alphabet in reverse,
    using only `putchar` a maximum of two times, followed by a new line.
 
-## 8-print_base16.c
+## [8-print_base16.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c)
    A `C` program that prints all the numbers of base `16` in lowercase,
    only using `putchar` a maximum of three times, followed by a new line.
 
-## 9-print_comb.c
+## [9-print_comb.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c)
    A `C` program that prints all possible combinations of single-digit numbers.
    - numbers must be separated by `,`, followed by a space
    - numbers should be printed in ascending order
    - only `putchar` is allowed a maximum of four times
    - not allowed to use any variable of type `char`
 
-## 100-print_comb3.c
+## [100-print_comb3.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/100-print_comb3.c)
    A `C` program that prints all possible different combinations of two digits.
    - numbers must be separated by `,`, followed by a space
    - the two digits must be different, `01` and `10`
@@ -70,7 +70,7 @@
    - only `putchar` is allowed five times maximum
    - not allowed to use any variable of type `char`
 
-## 101-print_comb4.c
+## [101-print_comb4.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/101-print_comb4.c)
    A `C` program that prints all possible different combinations of three digits
    - numbers must be separated by `,`, followed	by a space
    - the two digits must be different, `012`, `120`, `102`, `021`, `201` and
@@ -80,7 +80,7 @@
    - only `putchar` is allowed six times maximum
    - not allowed to use	any variable of	type `char`
 
-## 102-print_comb5.c
+## [102-print_comb5.c](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x01-variables_if_else_while/102-print_comb5.c)
    A `C` program that prints all possible combinations of two two-digit numbers.
    - the numbers should range from `0` to `99`
    - the two numbers should be separated by a space
