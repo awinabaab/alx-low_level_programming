@@ -50,4 +50,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 /* Deletes a node at a given position */
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
+/* Reverses a listint_t linked list */
+listint_t *reverse_listint(listint_t **head);
+
 #endif /* #ifndef LISTS_H */
