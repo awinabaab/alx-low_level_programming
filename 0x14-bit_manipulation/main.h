@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/* Writes a character to stdout */
+int _putchar(char c);
+
 /* Converts a binary umber to an unsigned int */
 unsigned int binary_to_uint(const char *b);
 
