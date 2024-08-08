@@ -4,4 +4,7 @@
 /* Converts a binary umber to an unsigned int */
 unsigned int binary_to_uint(const char *b);
 
+/* Returns the value of a bit at a given index */
+int get_bit(unsigned long int n, unsigned int index);
+
 #endif /* ifndef MAIN_H */
