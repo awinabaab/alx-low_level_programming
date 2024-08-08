@@ -22,4 +22,7 @@ int clear_bit(unsigned long int *n, unsigned int index);
 /* Returns the number of bits you would need to fliep to get from one number to another */
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 
+/* Checks the endianness */
+int get_endianness(void);
+
 #endif /* ifndef MAIN_H */
