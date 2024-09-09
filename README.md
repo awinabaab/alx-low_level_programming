@@ -86,29 +86,32 @@
    - Why and when use `malloc`
    - How to use `valgrind` to check for memory leak
 
-## [0x0C-more_malloc_free](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
+## [0x0C-more_malloc_free/](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
    - How to use the `exit` function
    - What are the functions `calloc` and `realloc` from the standard library and how to use them
 
-## [0x0D-preprocessor](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x0D-preprocessor)
+## [0x0D-preprocessor/](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x0D-preprocessor)
    - What are macros and how to use them
    - What are the most common predefined macros
    - How to include guard your header files
 
-## [0x0E-structures_typedef](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x0E-structures_typedef)
+## [0x0E-structures_typedef/](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x0E-structures_typedef)
    - What are structures, when, why and how to use them
    - How to use `typedef`
 
-## [0x0F-function_pointers](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x0F-function_pointers)
+## [0x0F-function_pointers/](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x0F-function_pointers)
    - What are function pointers and how to use them
    - What does a function pointer exactly hold
    - Where does a function pointer point to in the virtual memory
 
-## [0x10-variadic_functions](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x10-variadic_functions)
+## [0x10-variadic_functions/](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x10-variadic_functions)
    - What are variadic functions
    - How to use `va_start`, `va_arg` and `va_end` macros
    - Why and how to use the `const` type qualifier
 
-## [0x12-singly_linked_lists](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x12-singly_linked_lists)
+## [0x12-singly_linked_lists/](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x12-singly_linked_lists)
    - When and why using linked lists vs arrays
    - How to build and use linked lists
+
+## [0x13-more_singly_linked_lists/](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)
+   - How to use linked lists
