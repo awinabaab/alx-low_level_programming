@@ -115,3 +115,6 @@
 
 ## [0x13-more_singly_linked_lists/](https://github.com/awinabaab/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)
    - How to use linked lists
+
+## [0x14-bit_manipulation/](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x14-bit_manipulation)
+   - How to manipulate bits and use bitwise operators
