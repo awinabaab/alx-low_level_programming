@@ -1,4 +1,4 @@
-# C - Doubly Linked Lists
+i# C - Doubly Linked Lists
   - What is a doubly linked list
   - How to use doubly linked lists
   - Understand and know how to implement the various operations (deletion, insertion, etc) with doubly linked lists
@@ -51,7 +51,7 @@
    - Return: `1` on success, `-1` on failure
 
 ## [100-password](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/100-password)
-   The password for [crackme4}(https://github.com/alx-tools/0x17.c)
+   The password for [crackme4](https://github.com/alx-tools/0x17.c)
 
 ## [101-result](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/101-result)
    The largest palidrome made from the product of two 3-digit numbers
