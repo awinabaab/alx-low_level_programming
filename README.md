@@ -127,3 +127,8 @@
    - What are file permissions, and how to set them when creating a file with the open system call
    - What is a system call
    - What is the difference between a function and a system call
+
+## [0x017-doubly_linked_lists/](https://github.com/awinabaab/alx-low_level_programming/blob/master/0x17-doubly_linked_lists)
+   - What is a doubly linked list
+   - How to use doubly linked lists
+   - Understand and know how to implement the various operations (deletion, insertion, etc) with doubly linked lists
