@@ -19,7 +19,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (!ht)
 		return (0);
 
-	if (!key)
+	if (*key == '\0')
 		return (0);
 
 	hash = hash_djb2((const unsigned char *)key);
